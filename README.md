@@ -2,6 +2,8 @@
 
 Public documentation site for [ZenithAFK](https://builtbybit.com/resources/zenithafk.107444/) — the ultimate AFK zone plugin for Paper 1.20+.
 
+**Live site: [gesoodinazzz.github.io/ZenithAFK-Docs](https://gesoodinazzz.github.io/ZenithAFK-Docs/)**
+
 ## Local Development
 
 ```bash
@@ -11,8 +13,4 @@ mkdocs serve
 
 ## Deploy
 
-```bash
-mkdocs gh-deploy
-```
-
-This builds the site and pushes the `gh-pages` branch to GitHub Pages.
+Pushing to `main` automatically triggers the GitHub Actions workflow that builds and deploys the site to GitHub Pages. No manual steps needed.
